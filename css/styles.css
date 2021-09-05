@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/**/
+
+body {
+    background: url("/images/pattern-background-desktop.svg") no-repeat hsl(225, 100%, 94%);
+    background-size: 100% auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+}
+
+#card {
+    width: min-content;
+    margin: 3% auto;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.hero img {
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.panel h2 {
+    margin: 5%;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.panel p {
+    color: hsl(224, 23%, 55%);
+    padding: 0 18%;
+    line-height: 1.2rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 7%;
+    padding: 0 10%;
+}
+
+.price p {
+    margin-left: -4.5rem;
+    line-height: 1.5rem;
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.price a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.btn {
+    width: 75%;
+    font-weight: 700;
+    padding: 4%;
+    border-radius: 0.5rem;
+}
+
+.blue-btn {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border: 2px hsl(245, 75%, 52%);
+}
+
+.white-btn {
+    margin-bottom: 7%;
+    background-color: #fff;
+    border: #fff;
+    color: hsl(224, 23%, 55%);
+}
+
+.blue-btn:hover {
+    opacity: 0.5;
+}
+
+.white-btn:hover {
+    color: #000;
+}
+
+.price a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width:640px) {
+    body {
+        background: url("/images/pattern-background-mobile.svg") no-repeat hsl(225, 100%, 94%);
+        background-size: 100% auto;
+        font-size: 17px;
+    }
+}
